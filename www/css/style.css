@@ -1,0 +1,174 @@
+*{
+            font-family: 'Roboto',sans-serif;
+        }
+        .header{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .notif{
+            margin-left: auto;
+        }
+        .steps{
+            height: 50%;
+            width: 40%;
+            background-color: #BC7FCD;
+            border-radius: 10px;
+            justify-content: center;
+            flex-direction: center;
+            flex-wrap: wrap;
+            border: 2px solid black;   
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;            
+        }
+        .heart{
+            height: 50%;
+            width: 40%;
+            background-color: #FB9AD1;
+            border-radius: 10px;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;        
+            border: 2px solid black; 
+            flex-direction: column;
+            align-items: center;  
+            padding: 5px;
+        }
+        .sleep{
+            height: 50%;
+            width: 40%;
+            background-color: #FFCDEA;
+            border-radius: 10px;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;        
+            border: 2px solid black;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;   
+        }
+        .blood{
+            height: 50%;
+            width: 40%;
+            background-color: #86469C;
+            border-radius: 10px;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap; 
+            border: 2px solid black; 
+            flex-direction: column;
+            align-items: center; 
+            padding: 5px;        
+        }
+        .container {
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            min-height: 250px;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .calendar{
+            min-height: 50px;
+            padding: 10px;
+        }
+        .date{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: #FF77B7;
+        }
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            border-top: 1px solid #eee;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #86469C;
+            font-size: 12px;
+        }
+        .nav-item.active {
+            color: #BC7FCD;
+        }
+        .nav-item img {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 4px;
+        }
+
+        .content-container{
+            padding-bottom: 70px;
+        }
+
+        .fullscreen-map {
+            height: 80vh;
+        }
+        .map-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ratio-1x1 {
+            width: 100%;
+            height: 100%;
+        }
+
+        .iframe{
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .collection{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background-color: #FFCCEA;
+            border-radius: 10px;
+            border: 2px black solid;
+        }
+        .card{
+            border: 2px black solid;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #CDC1FF;
+        }
+
+        .headerBtsp{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-left: 8px;
+            margin-right: 5px;
+            margin-top: 10px;
+            
+        }
+        .headerBtsp p{
+            margin: 0;
+        }
+        
+        .boxIcon{
+            padding-left: 50px;
+            padding-right: 60px;
+            justify-content: center;
+        }
+
